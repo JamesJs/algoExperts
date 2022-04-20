@@ -1,6 +1,4 @@
-from contextlib import AsyncExitStack
-
-
+# Tempo: O(n^2) Espaço: O(n^2)
 def makeMatrix(array):
     m = [0] * len(array)
     for i in range(0,len(m)):

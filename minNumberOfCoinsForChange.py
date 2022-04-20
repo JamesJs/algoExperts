@@ -1,4 +1,4 @@
-# Tempo: O(nd) Espaço: O(n)
+# Tempo: O(nd) Espaço: O(n^2)
 def minNumberOfCoinsForChange(n, denoms):
     array = [0] * (n + 1)
     if(n == 0):
@@ -23,3 +23,4 @@ def minNumberOfCoinsForChange(n, denoms):
     return len(array[n])
 
 print(minNumberOfCoinsForChange(7,[5,10]))
+
