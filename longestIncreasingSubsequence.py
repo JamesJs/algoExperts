@@ -1,7 +1,3 @@
-
-from operator import le
-
-
 def createMatrix(n):
     m = [0] * n
     for i in range(0,n):
